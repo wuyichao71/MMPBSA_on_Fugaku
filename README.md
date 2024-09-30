@@ -18,5 +18,12 @@ There are two recommanded softwares can be used to perform MM/PBSA analysis -- `
 
 We will first to install the `MMPBSA.py` and then install the `gmx_MMPBSA`.
 
+At first, Lets's clone the repository.
+
+```
+git clone https://github.com/wuyichao71/MMPBSA_on_Fugaku.git
+```
+
 ### Install `MMPBSA.py`
 
+The `MMPBSA.py` actually is a python script, and it needs a package named `MMPBSA_mods`. We have copy the `MMPBSA_mods` package from installed `amber` package to `MMPBSA_src`. 
