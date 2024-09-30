@@ -11,5 +11,12 @@ Currently, we only performed MM/PBSA analysis. So if there are other errors, we 
 
 ## Install software on Fugaku
 
-To use `amber` software package on the Fugaku, you should apply for the use of commercial software. The manual of how to apply for is here:
+To use `amber` software package on the Fugaku, you should apply for the use of commercial software. The manual of how to apply for is here:  
 [https://www.fugaku.r-ccs.riken.jp/doc_root/en/user_guides/Commercial_Software/index.html](https://www.fugaku.r-ccs.riken.jp/doc_root/en/user_guides/Commercial_Software/index.html)
+
+There are two recommanded softwares can be used to perform MM/PBSA analysis -- `MMPBSA.py` and `gmx_MMPBSA`. `mm_pbsa.pl` is too old to use easily. The use of `MMPBSA.py` needs the amber format topologies and trajectories, and the use of `gmx_MMPBSA` needs gromacs format topologies and trajectories. The `MMPBSA.py` is not included in the `amber` on Fugaku, so we should install both in this tutorial.
+
+We will first to install the `MMPBSA.py` and then install the `gmx_MMPBSA`.
+
+### Install `MMPBSA.py`
+
