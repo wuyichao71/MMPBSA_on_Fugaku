@@ -26,7 +26,7 @@ add_path=$bin_dir
 if ! grep "\$add_python_path" <<<\$PYTHONPATH >/dev/null; then
     export PYTHONPATH=\$PYTHONPATH:\$add_python_path
 fi
-if ! grep "\$add_path" <<<$PATH >/dev/null; then
+if ! grep "\$add_path" <<<\$PATH >/dev/null; then
     export PATH=\$PATH:\$add_path
 fi
 EOF
