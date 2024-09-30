@@ -38,4 +38,11 @@ bash install_MMPBSA.sh
 
 ### Install `gmx_MMPBSA`
 
-We have download the `gmx_MMPBSA-1.6.3-py3-none-any.whl` file for `gmx_MMPBSA` in `gmx_MMPBSA_src`. The `gmx_MMPBSA` have some dependence on `parmed` and `tqdm`, so we have download `ParmEd-4.2.2.tar.gz` and `tqdm-4.66.5-py3-none-any.whl` in `package_src`.
+We have download the `gmx_MMPBSA-1.6.3-py3-none-any.whl` file for `gmx_MMPBSA` in `gmx_MMPBSA_src`. The `gmx_MMPBSA` have some dependences on `parmed` and `tqdm` which do not exist on Fugaku, so we have downloaded `ParmEd-4.2.2.tar.gz` and `tqdm-4.66.5-py3-none-any.whl` in `package_src`.
+
+To install `gmx_MMPBSA`, we should run below command.
+
+```bash
+cd MMPBSA_on_FUgaku
+bash install_gmx_MMPBSA.sh
+```
