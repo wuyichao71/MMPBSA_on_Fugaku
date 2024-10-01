@@ -2,7 +2,7 @@
 
 ## Introduction
 
-> It is not recommanded to perform MM/PBSA on the Fugaku compute node. Although each compute node has 48 cores, the RAM for each compute node is only 32G. However, performing MM/PBSA parallelly needs a large amount of RAM. So when the system is large, it is impossible to used all the cores in one node. It is a kind of waste of compute resource!
+> It is not recommanded to perform MM/PBSA on the Fugaku compute node. Although each compute node has 48 cores, the RAM for each compute node is only 32G. However, performing MM/PBSA parallelly needs a large amount of RAM. So when the system is large, it is impossible to used all the cores in one node. It is a kind of waste of compute resource!  
 > **So please be careful!**
 
 In this tutorial, we will try to perform MM/PBSA on the fugaku. First, we will install software for perform MM/PBSA, then we will perform MM/PBSA on the compute node.
